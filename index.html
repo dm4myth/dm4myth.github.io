@@ -18,6 +18,15 @@
         <!-- Favicon -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" type="" href="img/favicon.ico" />
+        <style>.image-container img {
+            width: 100%;
+            height: auto;
+        }
+        @media (max-width: 992px) {
+    .image-container {
+        display: none;
+    }
+}</style>
     </head>
     <body>
         <div class="container-fluid background-hero hero-full-screen" id="home">
@@ -31,8 +40,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="https://www.unibo.it/it" alt="Link al sito web di Alma Mater Studiorum - Università di Bologna" target="_blank"><img src="img/logo-unibo.png"></a>
-                        <a class="navbar-brand" href="https://www.rug.nl" alt="Link to the University of Groningen" target="_blank"><img src="img/logo--en.svg"></a>
+                        <a class="navbar-brand" href="https://www.lmu.de/" alt="Link to LMU website" target="_blank"><img style="height:90px" src="img/LMU.png"></a>
+                        <a class="navbar-brand" href="https://www.rug.nl" alt="Link to the University of Groningen" target="_blank"><img style="height:90px" src="img/logo--en.svg"></a>
                     </div>
             
                     <!-- Main navbar -->
@@ -52,17 +61,24 @@
             <div class="container padding-section-enlarged">
                 <div class="row">
                     <div class="col-md-12 mobile-home">
-                        <a class="navbar-brand-home" href="https://www.unibo.it/it" alt="Link al sito web di Alma Mater Studiorum - Università di Bologna" target="_blank"><img src="img/logo-unibo.png" class="mobile-home-img center"></a>
+                        <a class="navbar-brand-home" href="https://www.rug.nl" alt="Link to the University of Groningen" target="_blank"><img src="img/logo--en.svg" class="mobile-home-img center"></a>
+                        <a class="navbar-brand-home" href="https://www.lmu.de/" alt="Link to LMU website" target="_blank"><img style="height:65px" src="img/LMU.png" class="mobile-home-img center"></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 padding-main-section">
+                    <div class="col-md-2 image-container">
+                        <img src="img/book.png" alt="Side Image 2">
+                    </div>
+                    <div class="col-md-8 padding-main-section">
                         <p class="main-subtitle">Workshop</p>
                         <h1 class="main-title">dm4myth <br> </h1>
                         <hr class="color-dimgray hr-main">
-                        <p class="main-subtitle-enlarged no-margin-bottom">Digital Methods for Mythological Research</p>
-                        <p class="main-subtitle margin-bottom-button">Co-located with the <a href="https://2024.computational-humanities-research.org/">CHR2024 Conference</a>, in Aarhus Denmark. December 3rd 2024</p>
+                        <p style="background-color:#e8e7ef" class="main-subtitle-enlarged no-margin-bottom">Digital Methods for Mythological Research</p>
+                        <p style="background-color:#e8e7ef" class="main-subtitle margin-bottom-button">Co-located with the <a href="https://2024.computational-humanities-research.org/">CHR2024 Conference</a>, in Aarhus Denmark. December 3rd 2024</p>
                         <button class="background-red button-round center" id="find-more">Know more</button>
+                    </div>
+                    <div class="col-md-2 image-container">
+                        <img src="img/book.png" alt="Side Image 2">
                     </div>
                 </div>
             </div>
@@ -244,7 +260,7 @@
         <div class="container-fluid background-gray padding-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 brand"><a href="https://www.lmu.de/" alt="Website of the Ludwig-Maximilians Universität München" target="_blank"><img src="img/lmu.png" class="center"></a></div>
+                    <div class="col-md-3 brand"><a href="https://www.lmu.de/" alt="Website of the Ludwig-Maximilians Universität München" target="_blank"><img style="height:90px" src="img/LMU.png" class="center"></a></div>
                     <div class="col-md-3 brand"><a href="https://www.rug.nl" alt="Website of the Rijksuniversiteit Groningen" target="_blank"><img src="img/logo--en.svg" class="center"></a></div>
                 </div>
             </div>
@@ -269,7 +285,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <!-- Insert the copyright suitable for your interests -->
-                        <h2 class="color-white copyright-title section-copyright">© Copyright 2020 Evento, Università</h2>
+                        <h2 class="color-white copyright-title section-copyright">© Copyright dm4myth workshop. <a href="https://github.com/martinadellobuono/academicevent-template">Template by Martina Dello Buono</a></h2>
                     </div>
                 </div>
             </div>
